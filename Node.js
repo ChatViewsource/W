@@ -45,3 +45,4 @@ app.post('/posts', upload.single('image'), (req, res) => {
 app.listen(PORT, () => {
   console.log(`الخادم يعمل على http://localhost:${PORT}`);
 });
+node server.js
